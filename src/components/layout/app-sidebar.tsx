@@ -8,6 +8,7 @@ import {
   Ruler,
   Dumbbell,
   UtensilsCrossed,
+  ClipboardList,
   LogOut,
 } from "lucide-react";
 import {
@@ -27,6 +28,7 @@ import { useRouter } from "next/navigation";
 
 const menuItems = [
   { title: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+  { title: "Anamnese", href: "/anamnese", icon: ClipboardList },
   { title: "Perfil", href: "/perfil", icon: User },
   { title: "Medidas", href: "/medidas", icon: Ruler },
   { title: "Treino", href: "/treino", icon: Dumbbell },
